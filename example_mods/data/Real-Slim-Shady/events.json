@@ -1,0 +1,39 @@
+{
+	"song": {
+		"speed": 2.7,
+		"stage": null,
+		"player1": "eminem-player",
+		"player2": "pico",
+		"player3": null,
+		"events": [
+			[
+				1428.57142857143,
+				[
+					[
+						"Change Scroll Speed",
+						".5",
+						".01"
+					]
+				]
+			],
+			[
+				19000,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						".01"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 105,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Real-Slim-Shady"
+	}
+}

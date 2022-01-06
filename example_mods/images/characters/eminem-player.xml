@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="eminem-player.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Eminem Down0000" x="0" y="0" width="682" height="824" frameX="-11" frameY="-20" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0001" x="0" y="0" width="682" height="824" frameX="-11" frameY="-20" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0002" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0003" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0004" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0005" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0006" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0007" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0008" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0009" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0010" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0011" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0012" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0013" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0014" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0015" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0016" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0017" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0018" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down0019" x="682" y="0" width="680" height="847" frameX="0" frameY="0" frameWidth="693" frameHeight="847"/>
+	<SubTexture name="Eminem Down Miss0000" x="1362" y="0" width="682" height="824" frameX="-11" frameY="-125" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0001" x="1362" y="0" width="682" height="824" frameX="-11" frameY="-125" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0002" x="2044" y="0" width="680" height="952" frameX="0" frameY="0" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0003" x="2044" y="0" width="680" height="952" frameX="0" frameY="0" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0004" x="2724" y="0" width="680" height="951" frameX="-2" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0005" x="2724" y="0" width="680" height="951" frameX="-2" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0006" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0007" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0008" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0009" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0010" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0011" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0012" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0013" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0014" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0015" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0016" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0017" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0018" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Down Miss0019" x="3404" y="0" width="680" height="951" frameX="0" frameY="-1" frameWidth="693" frameHeight="952"/>
+	<SubTexture name="Eminem Haha0000" x="0" y="952" width="521" height="1048" frameX="-1" frameY="0" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0001" x="0" y="952" width="521" height="1048" frameX="-1" frameY="0" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0002" x="0" y="952" width="521" height="1048" frameX="-1" frameY="0" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0003" x="521" y="952" width="527" height="1042" frameX="-1" frameY="-6" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0004" x="521" y="952" width="527" height="1042" frameX="-1" frameY="-6" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0005" x="1048" y="952" width="532" height="1039" frameX="0" frameY="-9" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0006" x="1048" y="952" width="532" height="1039" frameX="0" frameY="-9" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0007" x="1580" y="952" width="535" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0008" x="1580" y="952" width="535" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0009" x="2115" y="952" width="535" height="1035" frameX="-1" frameY="-13" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0010" x="2115" y="952" width="535" height="1035" frameX="-1" frameY="-13" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0011" x="2650" y="952" width="531" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0012" x="2650" y="952" width="531" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0013" x="2650" y="952" width="531" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0014" x="3181" y="952" width="531" height="1035" frameX="-1" frameY="-13" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0015" x="3181" y="952" width="531" height="1035" frameX="-1" frameY="-13" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0016" x="0" y="2000" width="531" height="1034" frameX="-1" frameY="-14" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0017" x="0" y="2000" width="531" height="1034" frameX="-1" frameY="-14" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0018" x="531" y="2000" width="531" height="1033" frameX="-1" frameY="-15" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0019" x="531" y="2000" width="531" height="1033" frameX="-1" frameY="-15" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0020" x="1062" y="2000" width="530" height="1033" frameX="-1" frameY="-15" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0021" x="1062" y="2000" width="530" height="1033" frameX="-1" frameY="-15" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0022" x="1592" y="2000" width="531" height="1034" frameX="-1" frameY="-14" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0023" x="1592" y="2000" width="531" height="1034" frameX="-1" frameY="-14" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0024" x="1592" y="2000" width="531" height="1034" frameX="-1" frameY="-14" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0025" x="1062" y="2000" width="530" height="1033" frameX="-1" frameY="-15" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0026" x="1062" y="2000" width="530" height="1033" frameX="-1" frameY="-15" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0027" x="1592" y="2000" width="531" height="1034" frameX="-1" frameY="-14" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0028" x="1592" y="2000" width="531" height="1034" frameX="-1" frameY="-14" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0029" x="1592" y="2000" width="531" height="1034" frameX="-1" frameY="-14" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0030" x="1062" y="2000" width="530" height="1033" frameX="-1" frameY="-15" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0031" x="1062" y="2000" width="530" height="1033" frameX="-1" frameY="-15" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0032" x="1592" y="2000" width="531" height="1034" frameX="-1" frameY="-14" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0033" x="1592" y="2000" width="531" height="1034" frameX="-1" frameY="-14" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0034" x="1592" y="2000" width="531" height="1034" frameX="-1" frameY="-14" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0035" x="1062" y="2000" width="530" height="1033" frameX="-1" frameY="-15" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0036" x="1062" y="2000" width="530" height="1033" frameX="-1" frameY="-15" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0037" x="2123" y="2000" width="530" height="1033" frameX="-1" frameY="-15" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0038" x="2123" y="2000" width="530" height="1033" frameX="-1" frameY="-15" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0039" x="1592" y="2000" width="531" height="1034" frameX="-1" frameY="-14" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0040" x="1592" y="2000" width="531" height="1034" frameX="-1" frameY="-14" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0041" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0042" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0043" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0044" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0045" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0046" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0047" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0048" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0049" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0050" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0051" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0052" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0053" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0054" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Haha0055" x="2653" y="2000" width="528" height="1036" frameX="-1" frameY="-12" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0000" x="3181" y="2000" width="521" height="1035" frameX="0" frameY="-13" frameWidth="525" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0001" x="3181" y="2000" width="521" height="1035" frameX="0" frameY="-13" frameWidth="525" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0002" x="0" y="3036" width="521" height="1041" frameX="-2" frameY="-7" frameWidth="525" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0003" x="0" y="3036" width="521" height="1041" frameX="-2" frameY="-7" frameWidth="525" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0004" x="521" y="3036" width="521" height="1045" frameX="-3" frameY="-3" frameWidth="525" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0005" x="521" y="3036" width="521" height="1045" frameX="-3" frameY="-3" frameWidth="525" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0006" x="1042" y="3036" width="522" height="1047" frameX="-3" frameY="-1" frameWidth="525" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0007" x="1042" y="3036" width="522" height="1047" frameX="-3" frameY="-1" frameWidth="525" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0008" x="0" y="952" width="521" height="1048" frameX="-4" frameY="0" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0009" x="0" y="952" width="521" height="1048" frameX="-4" frameY="0" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0010" x="0" y="952" width="521" height="1048" frameX="-4" frameY="0" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0011" x="0" y="952" width="521" height="1048" frameX="-4" frameY="0" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0012" x="0" y="952" width="521" height="1048" frameX="-4" frameY="0" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Idle0013" x="0" y="952" width="521" height="1048" frameX="-4" frameY="0" frameWidth="536" frameHeight="1048"/>
+	<SubTexture name="Eminem Left0000" x="1564" y="3036" width="552" height="907" frameX="-1" frameY="-1" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0001" x="1564" y="3036" width="552" height="907" frameX="-1" frameY="-1" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0002" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0003" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0004" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0005" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0006" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0007" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0008" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0009" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0010" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0011" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0012" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0013" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0014" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0015" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0016" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0017" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0018" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left0019" x="2116" y="3036" width="547" height="908" frameX="0" frameY="0" frameWidth="553" frameHeight="908"/>
+	<SubTexture name="Eminem Left Miss0000" x="2663" y="3036" width="552" height="907" frameX="-1" frameY="-65" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0001" x="2663" y="3036" width="552" height="907" frameX="-1" frameY="-65" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0002" x="3215" y="3036" width="554" height="972" frameX="-7" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0003" x="3215" y="3036" width="554" height="972" frameX="-7" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0004" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0005" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0006" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0007" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0008" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0009" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0010" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0011" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0012" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0013" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0014" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0015" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0016" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0017" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0018" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Left Miss0019" x="0" y="4083" width="556" height="972" frameX="0" frameY="0" frameWidth="561" frameHeight="972"/>
+	<SubTexture name="Eminem Right0000" x="556" y="4083" width="616" height="1005" frameX="-1" frameY="-5" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0001" x="556" y="4083" width="616" height="1005" frameX="-1" frameY="-5" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0002" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0003" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0004" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0005" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0006" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0007" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0008" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0009" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0010" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0011" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0012" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0013" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0014" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0015" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0016" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0017" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0018" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right0019" x="1172" y="4083" width="599" height="1010" frameX="0" frameY="0" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right Miss0000" x="556" y="4083" width="616" height="1005" frameX="-2" frameY="-36" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right Miss0001" x="556" y="4083" width="616" height="1005" frameX="-2" frameY="-36" frameWidth="617" frameHeight="1010"/>
+	<SubTexture name="Eminem Right Miss0002" x="1771" y="4083" width="612" height="1041" frameX="0" frameY="0" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0003" x="1771" y="4083" width="612" height="1041" frameX="0" frameY="0" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0004" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0005" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0006" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0007" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0008" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0009" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0010" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0011" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0012" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0013" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0014" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0015" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0016" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0017" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0018" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Right Miss0019" x="2383" y="4083" width="624" height="1040" frameX="-1" frameY="-1" frameWidth="625" frameHeight="1041"/>
+	<SubTexture name="Eminem Up0000" x="3007" y="4083" width="750" height="1064"/>
+	<SubTexture name="Eminem Up0001" x="3007" y="4083" width="750" height="1064"/>
+	<SubTexture name="Eminem Up0002" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0003" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0004" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0005" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0006" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0007" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0008" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0009" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0010" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0011" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0012" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0013" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0014" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0015" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0016" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0017" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0018" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up0019" x="0" y="5147" width="732" height="1056" frameX="-2" frameY="-8" frameWidth="750" frameHeight="1064"/>
+	<SubTexture name="Eminem Up Miss0000" x="732" y="5147" width="750" height="1064" frameX="0" frameY="-48" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0001" x="732" y="5147" width="750" height="1064" frameX="0" frameY="-48" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0002" x="1482" y="5147" width="732" height="1107" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0003" x="1482" y="5147" width="732" height="1107" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0004" x="2214" y="5147" width="732" height="1112" frameX="-2" frameY="0" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0005" x="2214" y="5147" width="732" height="1112" frameX="-2" frameY="0" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0006" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0007" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0008" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0009" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0010" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0011" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0012" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0013" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0014" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0015" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0016" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0017" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0018" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+	<SubTexture name="Eminem Up Miss0019" x="2946" y="5147" width="732" height="1111" frameX="-2" frameY="-1" frameWidth="750" frameHeight="1112"/>
+</TextureAtlas>
