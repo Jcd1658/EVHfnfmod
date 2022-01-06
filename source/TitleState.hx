@@ -559,12 +559,12 @@ class TitleState extends MusicBeatState
 			{
 				case 1:
 					createCoolText(['EVH by'], -85);
-				// credTextShit.visible = true;
-				case 2:
 					addMoreText('ThatOneCUpid', -85);
 					addMoreText('agmas', -85);
-					addMoreText('Troll_Man', -85);
-					addMoreText('Slim JayD', -85);
+					addMoreText('bacon', -85);
+				// credTextShit.visible = true;
+				case 2:
+					deleteCoolText();
 					addMoreText('RexuS', -85);
 					addMoreText('Swiffzz', -85);
 					addMoreText('AngelRodz', -85);
@@ -572,6 +572,9 @@ class TitleState extends MusicBeatState
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
 				case 3:
+					deleteCoolText();
+					addMoreText('Troll_Man', -85);
+					addMoreText('Slim JayD', -85);
 					addMoreText('oh also eminem', -85);
 				case 4:
 					deleteCoolText();
