@@ -18,7 +18,7 @@ class FlxVideo extends FlxBasic {
 	public static var vlcBitmap:VlcBitmap;
 	#end
 
-	public function new(name:String) {
+	public function new(name:String, ignoreLayers:Bool = true) {
 		super();
 
 		#if web
@@ -26,6 +26,9 @@ class FlxVideo extends FlxBasic {
 		player.x = 0;
 		player.y = 0;
 		FlxG.addChildBelowMouse(player);
+		if (!ignoreLayers) {
+			player.alpha = 0.75;
+		}
 		var netConnect = new NetConnection();
 		netConnect.connect(null);
 		var netStream = new NetStream(netConnect);

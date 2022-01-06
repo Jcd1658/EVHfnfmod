@@ -575,6 +575,7 @@ class TitleState extends MusicBeatState
 					deleteCoolText();
 					addMoreText('Troll_Man', -85);
 					addMoreText('Slim JayD', -85);
+					addMoreText('yelloguy', -85);
 					addMoreText('oh also eminem', -85);
 				case 4:
 					deleteCoolText();

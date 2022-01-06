@@ -1363,7 +1363,7 @@ class PlayState extends MusicBeatState
 					}
 				}
 			} else {
-				(new FlxVideo(fileName));
+				(new FlxVideo(fileName, false));
 			}
 			return;
 		} else {
@@ -1519,20 +1519,22 @@ class PlayState extends MusicBeatState
 
 	public function startCountdown():Void
 	{
-		if (PlayState.SONG.song == "blackimp") {
-			startVideo("blackimp", true);
-		}
 		if(startedCountdown) {
 			callOnLuas('onStartCountdown', []);
 			return;
 		}
 
 		inCutscene = false;
-		if (PlayState.SONG.song == "blackimp") {
-			camGame.visible = false;
-		}
 		if (ClientPrefs.maxOptimization)
 			camGame.visible = false;
+		if (PlayState.SONG.song == "sussy") {
+			camGame.visible = false;
+			opponentStrums.visible = false;
+			for (i in 0...playerStrums.length) {
+				remove(playerStrums.members[i]);
+				add(playerStrums.members[i]);
+			}
+		}
 		var ret:Dynamic = callOnLuas('onStartCountdown', []);
 		if(ret != FunkinLua.Function_Stop) {
 			generateStaticArrows(0);
@@ -1660,6 +1662,9 @@ class PlayState extends MusicBeatState
 							}
 						});
 						FlxG.sound.play(Paths.sound('introGo' + introSoundsSuffix), 0.6);
+						if (PlayState.SONG.song == "sussy") {
+							startVideo("blackimp", true);
+						}
 					case 4:
 				}
 
@@ -1698,7 +1703,11 @@ class PlayState extends MusicBeatState
 		previousFrameTime = FlxG.game.ticks;
 		lastReportedPlayheadPosition = 0;
 
-		FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 1, false);
+		if(PlayState.SONG.song != "sussy") {
+			FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 1, false);
+		} else {
+			FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 0.00005, false);
+		}
 		FlxG.sound.music.onComplete = finishSong;
 		vocals.play();
 
@@ -2274,31 +2283,33 @@ class PlayState extends MusicBeatState
 
 		if (controls.PAUSE && startedCountdown && canPause)
 		{
-			var ret:Dynamic = callOnLuas('onPause', []);
-			if(ret != FunkinLua.Function_Stop) {
-				persistentUpdate = false;
-				persistentDraw = true;
-				paused = true;
+			if (PlayState.SONG.song != "sussy") { 
+				var ret:Dynamic = callOnLuas('onPause', []);
+				if(ret != FunkinLua.Function_Stop) {
+					persistentUpdate = false;
+					persistentDraw = true;
+					paused = true;	
 
-				// 1 / 1000 chance for Gitaroo Man easter egg
-				/*if (FlxG.random.bool(0.1))
-				{
-					// gitaroo man easter egg
-					cancelMusicFadeTween();
-					CustomFadeTransition.nextCamera = camOther;
-					MusicBeatState.switchState(new GitarooPause());
-				}
-				else {*/
-				if(FlxG.sound.music != null) {
-					FlxG.sound.music.pause();
-					vocals.pause();
-				}
-				openSubState(new PauseSubState(boyfriend.getScreenPosition().x, boyfriend.getScreenPosition().y));
-				//}
+					// 1 / 1000 chance for Gitaroo Man easter egg
+					/*if (FlxG.random.bool(0.1))
+					{
+						// gitaroo man easter egg
+						cancelMusicFadeTween();
+						CustomFadeTransition.nextCamera = camOther;
+						MusicBeatState.switchState(new GitarooPause());
+					}
+					else {*/
+					if(FlxG.sound.music != null) {
+						FlxG.sound.music.pause();
+						vocals.pause();
+					}
+					openSubState(new PauseSubState(boyfriend.getScreenPosition().x, boyfriend.getScreenPosition().y));
+					//}	
 
-				#if desktop
-				DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
-				#end
+					#if desktop
+					DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+					#end
+				}
 			}
 		}
 
@@ -2640,6 +2651,12 @@ class PlayState extends MusicBeatState
 		}
 		#end
 
+		if (PlayState.SONG.song == "sussy") {
+			for (i in 0...playerStrums.length) {
+				remove(playerStrums.members[i]);
+				add(playerStrums.members[i]);
+			}
+		}
 		setOnLuas('cameraX', camFollowPos.x);
 		setOnLuas('cameraY', camFollowPos.y);
 		setOnLuas('botPlay', cpuControlled);
