@@ -1322,7 +1322,7 @@ class PlayState extends MusicBeatState
 		char.y += char.positionArray[1];
 	}
 
-	public function startVideo(name:String):Void {
+	public function startVideo(name:String, hideBG:Bool = false):Void {
 		#if VIDEOS_ALLOWED
 		var foundFile:Bool = false;
 		var fileName:String = #if MODS_ALLOWED Paths.modFolders('videos/' + name + '.' + Paths.VIDEO_EXT); #else ''; #end
@@ -1344,29 +1344,38 @@ class PlayState extends MusicBeatState
 		}
 
 		if(foundFile) {
-			inCutscene = true;
-			var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
-			bg.scrollFactor.set();
-			bg.cameras = [camHUD];
-			add(bg);
+			if (!hideBG) {
+				inCutscene = true;
+				camGame.visible = false;
+				camHUD.visible = false;
+			}
 
-			(new FlxVideo(fileName)).finishCallback = function() {
-				remove(bg);
-				if(endingSong) {
-					endSong();
-				} else {
-					startCountdown();
+			if (!hideBG) {
+				(new FlxVideo(fileName)).finishCallback = function() {
+					if (!hideBG) {
+						camGame.visible = true;
+						camHUD.visible = true;
+						if(endingSong) {
+							endSong();
+						} else {
+							startCountdown();
+						}
+					}
 				}
+			} else {
+				(new FlxVideo(fileName));
 			}
 			return;
 		} else {
 			FlxG.log.warn('Couldnt find video file: ' + fileName);
 		}
 		#end
-		if(endingSong) {
-			endSong();
-		} else {
-			startCountdown();
+		if (!hideBG) {
+			if(endingSong) {
+				endSong();
+			} else {
+				startCountdown();
+			}
 		}
 	}
 
@@ -1510,12 +1519,18 @@ class PlayState extends MusicBeatState
 
 	public function startCountdown():Void
 	{
+		if (PlayState.SONG.song == "blackimp") {
+			startVideo("blackimp", true);
+		}
 		if(startedCountdown) {
 			callOnLuas('onStartCountdown', []);
 			return;
 		}
 
 		inCutscene = false;
+		if (PlayState.SONG.song == "blackimp") {
+			camGame.visible = false;
+		}
 		if (ClientPrefs.maxOptimization)
 			camGame.visible = false;
 		var ret:Dynamic = callOnLuas('onStartCountdown', []);
