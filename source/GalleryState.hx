@@ -29,18 +29,21 @@ class GalleryState extends MusicBeatState
 	var bg:FlxSprite;
 	var nothingtoshow:FlxText;
 	var blackimp:FlxText;
+	var curSelected:Int;
 
 	override function create()
 	{
-		nothingtoshow = new FlxText(FlxG.camera.width / 2,FlxG.camera.height / 2, 3500, "Press left or right to go through gallery options!");
-		add(nothingtoshow);
-		nothingtoshow.visible = false;
-		blackimp = new FlxText(FlxG.camera.width / 2,FlxG.camera.height / 2, 3500, "eminem vs black impostor [Press Space to Play]");
-		add(blackimp);
-		blackimp.visible = false;
 		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
+		nothingtoshow = new FlxText(0,FlxG.camera.height / 2, 3500, "Press left or right to go through gallery options!");
+		add(nothingtoshow);
+		nothingtoshow.visible = false;
+		blackimp = new FlxText(0,FlxG.camera.height / 2, 3500, "eminem vs black impostor [Press Space to Play]");
+		add(blackimp);
+		blackimp.visible = false;
+		blackimp.size = 30;
+		nothingtoshow.size = 30;
 
 		super.create();
 	}
@@ -125,6 +128,14 @@ class GalleryState extends MusicBeatState
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 			MusicBeatState.switchState(new MainMenuState());
 		}
+		nothingtoshow.visible = false;
+		blackimp.visible = false;
+		switch (curSelected) {
+			case 0:
+				nothingtoshow.visible = true;
+			case 1:
+				blackimp.visible = true;
+		}
 		super.update(elapsed);
 	}
 
@@ -140,12 +151,6 @@ class GalleryState extends MusicBeatState
 			curSelected = 1;
 		if (curSelected >= 2)
 			curSelected = 0;
-		switch (curSelected) {
-			case 0:
-				nothingtoshow.visible = true;
-			case 1:
-				blackimp.visible = true;
-		}
 	}
 
 }
