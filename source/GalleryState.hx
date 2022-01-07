@@ -119,21 +119,22 @@ class GalleryState extends MusicBeatState
 		else if(space)
 		{
 			switch (curSelected) {
-				case 0:
-					FlxG.sound.play(Paths.sound('cancelMenu'));
 				case 1:
 					FlxG.sound.music.stop();
 					MusicBeatState.switchState(new VideoState("blackimp"));
+				default:
+					FlxG.sound.play(Paths.sound('cancelMenu'));
 			}
 		}
 
 		else if (accepted)
 		{
 			switch (curSelected) {
-				case 0:
-					FlxG.sound.play(Paths.sound('cancelMenu'));
 				case 1:
+					FlxG.sound.music.stop();
 					MusicBeatState.switchState(new VideoState("blackimp"));
+				default:
+					FlxG.sound.play(Paths.sound('cancelMenu'));
 			}
 		}
 		else if(controls.RESET)
