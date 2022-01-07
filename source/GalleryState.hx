@@ -46,12 +46,12 @@ class GalleryState extends MusicBeatState
 		blackimp.visible = false;
 		trolled.loadGraphic(Paths.image('trolled'));
 		add(trolled);
-		trolled.y = FlxG.camera.height / 2;
+		trolled.y = FlxG.camera.height / 2 - trolled.height;
 		trolled.x = FlxG.camera.width / 2 - trolled.width;
 		trolled.visible = false;
 		no.loadGraphic(Paths.image('no'));
 		add(no);
-		no.y = FlxG.camera.height / 2;
+		no.y = FlxG.camera.height / 2 no.height;
 		no.x = FlxG.camera.width / 2 - no.width;
 		no.visible = false;
 		blackimp.size = 30;
