@@ -6,9 +6,10 @@ import flixel.graphics.frames.FlxAtlasFrames;
 
 class GitarooPause extends MusicBeatState
 {
+    var fileName:String;
 	public function new(video:String):Void
 	{
-
+        fileName = video;
 		super();
 	}
 
