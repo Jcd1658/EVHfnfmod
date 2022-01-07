@@ -28,6 +28,8 @@ class GalleryState extends MusicBeatState
 {
 	var bg:FlxSprite;
 	var nothingtoshow:FlxText;
+	var no = new FlxSprite();
+	var trolled = new FlxSprite();
 	var blackimp:FlxText;
 	var curSelected:Int;
 
@@ -36,12 +38,22 @@ class GalleryState extends MusicBeatState
 		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
-		nothingtoshow = new FlxText(0,FlxG.camera.height / 2, 3500, "Press left or right to go through gallery options!");
+		nothingtoshow = new FlxText(100,FlxG.camera.height / 2, 3500, "Press left or right to go through gallery options!");
 		add(nothingtoshow);
 		nothingtoshow.visible = false;
-		blackimp = new FlxText(0,FlxG.camera.height / 2, 3500, "eminem vs black impostor [Press Space to Play]");
+		blackimp = new FlxText(100,FlxG.camera.height / 2, 3500, "eminem vs black impostor [Press Space to Play]");
 		add(blackimp);
 		blackimp.visible = false;
+		trolled.loadGraphic(Paths.image('trolled'));
+		add(trolled);
+		trolled.y = FlxG.camera.height / 2;
+		trolled.x = FlxG.camera.width / 2 - trolled.width;
+		trolled.visible = false;
+		no.loadGraphic(Paths.image('no'));
+		add(no);
+		no.y = FlxG.camera.height / 2;
+		no.x = FlxG.camera.width / 2 - no.width;
+		no.visible = false;
 		blackimp.size = 30;
 		nothingtoshow.size = 30;
 
@@ -130,12 +142,22 @@ class GalleryState extends MusicBeatState
 		}
 		nothingtoshow.visible = false;
 		blackimp.visible = false;
+		trolled.visible = false;
+		no.visible = false;
 		switch (curSelected) {
 			case 0:
 				nothingtoshow.visible = true;
+				bg.color = 0xFFBA44F4;
 			case 1:
 				blackimp.visible = true;
-		}
+				bg.color = 0xFFBA44F4;
+			case 2:
+				trolled.visible = true;
+				bg.color = 0xFF33384C;
+			case 3:
+				no.visible = true;
+				bg.color = 0xFF22498F;
+			}
 		super.update(elapsed);
 	}
 
@@ -149,7 +171,7 @@ class GalleryState extends MusicBeatState
 
 		if (curSelected < 0)
 			curSelected = 1;
-		if (curSelected >= 2)
+		if (curSelected >= 4)
 			curSelected = 0;
 	}
 

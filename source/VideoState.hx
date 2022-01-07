@@ -26,7 +26,7 @@ class VideoState extends MusicBeatState
                     videostarted = true;
                     (new FlxVideo(fileName)).finishCallback = function() {
                     FlxG.sound.playMusic(Paths.music('freakyMenu'));
-                    MusicBeatState.switchState(new GallerySstate());
+                    MusicBeatState.switchState(new GalleryState());
                     }
                 }
             }
