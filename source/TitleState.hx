@@ -329,8 +329,8 @@ class TitleState extends MusicBeatState
 
 		if (!shouldUseBl) {
 			logo = new FlxSprite().loadGraphic(Paths.image('titlelogo_og'));
-			logo.x = 20;
-			logo.y = 20;
+			logo.x = -30;
+			logo.y = -30;
 			logo.antialiasing = ClientPrefs.globalAntialiasing;
 			add(logo);
 		}
