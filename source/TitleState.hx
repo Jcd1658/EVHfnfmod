@@ -541,6 +541,8 @@ class TitleState extends MusicBeatState
 		if (logo != null)
 		{
 			logo.scale.set(1.05, 1.05);
+			titleText.scale.set(1.05, 1.05);
+			FlxTween.tween(titleText, {'scale.x': 0.95, 'scale.y': 0.95}, 0.1, {ease: FlxEase.bounceIn});
 			FlxTween.tween(logo, {'scale.x': 0.95, 'scale.y': 0.95}, 0.1, {ease: FlxEase.bounceIn});
 		}
 

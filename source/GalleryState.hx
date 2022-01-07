@@ -122,6 +122,7 @@ class GalleryState extends MusicBeatState
 				case 0:
 					FlxG.sound.play(Paths.sound('cancelMenu'));
 				case 1:
+					FlxG.sound.music.stop();
 					MusicBeatState.switchState(new VideoState("blackimp"));
 			}
 		}
