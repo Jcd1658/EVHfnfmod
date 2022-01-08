@@ -1549,6 +1549,7 @@ class PlayState extends MusicBeatState
 				//if(ClientPrefs.middleScroll) opponentStrums.members[i].visible = false;
 			}
 
+
 			startedCountdown = true;
 			Conductor.songPosition = 0;
 			Conductor.songPosition -= Conductor.crochet * 5;
@@ -1961,13 +1962,14 @@ class PlayState extends MusicBeatState
 
 			if (player == 1)
 			{
+				babyArrow.x -= 620;
 				playerStrums.add(babyArrow);
 			}
 			else
 			{
+				babyArrow.x += 620;
 				if(ClientPrefs.middleScroll)
 				{
-					babyArrow.x += 310;
 					if(i > 1) { //Up and Right
 						babyArrow.x += FlxG.width / 2 + 25;
 					}

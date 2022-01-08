@@ -632,6 +632,7 @@ class TitleState extends MusicBeatState
 	var skippedIntro:Bool = false;
 
 	override function closeSubState() {
+		ClientPrefs.saveSettings();
 		new FlxTimer().start(0.5, function(tmr:FlxTimer) {
 			closedsub = true;
 		});

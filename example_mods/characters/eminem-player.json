@@ -102,7 +102,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				575,
+				665,
 				209
 			],
 			"anim": "singLEFT",
@@ -135,7 +135,7 @@
 		{
 			"loop": true,
 			"offsets": [
-				525,
+				495,
 				320
 			],
 			"anim": "singRIGHT",
@@ -147,7 +147,7 @@
 			"loop": false,
 			"offsets": [
 				575,
-				209
+				239
 			],
 			"anim": "singLEFTmiss",
 			"fps": 24,
@@ -158,7 +158,7 @@
 			"loop": false,
 			"offsets": [
 				575,
-				173
+				193
 			],
 			"anim": "singDOWNmiss",
 			"fps": 24,
@@ -169,7 +169,7 @@
 			"loop": false,
 			"offsets": [
 				525,
-				340
+				350
 			],
 			"anim": "singUPmiss",
 			"fps": 24,
@@ -180,7 +180,7 @@
 			"loop": false,
 			"offsets": [
 				525,
-				320
+				290
 			],
 			"anim": "singRIGHTmiss",
 			"fps": 24,
@@ -190,7 +190,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				525,
+				535,
 				340
 			],
 			"anim": "hey",
@@ -203,18 +203,18 @@
 	"image": "characters/eminem-player",
 	"position": [
 		0,
-		350
+		30
 	],
 	"healthicon": "bf",
-	"flip_x": false,
+	"flip_x": true,
 	"healthbar_colors": [
 		200,
 		200,
 		200
 	],
 	"camera_position": [
-		0,
-		0
+		-50,
+		-190
 	],
 	"sing_duration": 4,
 	"scale": 1
