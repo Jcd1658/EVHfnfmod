@@ -29,8 +29,12 @@ class GalleryState extends MusicBeatState
 	var bg:FlxSprite;
 	var nothingtoshow:FlxText;
 	var no = new FlxSprite();
+	var susy = new FlxSprite();
 	var trolled = new FlxSprite();
-	var blackimp:FlxText;
+	var flushed = new FlxSprite();
+	var newupdate = new FlxSprite();
+	var holyshit = new FlxSprite();
+	var blackimp:FlxText;	
 	var curSelected:Int;
 
 	override function create()
@@ -46,14 +50,34 @@ class GalleryState extends MusicBeatState
 		blackimp.visible = false;
 		trolled.loadGraphic(Paths.image('trolled'));
 		add(trolled);
-		trolled.y = FlxG.camera.height / 2 - trolled.height;
-		trolled.x = FlxG.camera.width / 2 - trolled.width;
+		trolled.screenCenter(X);
+		trolled.screenCenter(Y);
 		trolled.visible = false;
+		susy.loadGraphic(Paths.image('susy'));
+		add(susy);
+		susy.screenCenter(X);
+		susy.screenCenter(Y);
+		susy.visible = false;
 		no.loadGraphic(Paths.image('no'));
 		add(no);
-		no.y = FlxG.camera.height / 2 - no.height;
-		no.x = FlxG.camera.width / 2 - no.width;
+		no.screenCenter(X);
+		no.screenCenter(Y);
 		no.visible = false;
+		flushed.loadGraphic(Paths.image('flushed'));
+		add(flushed);
+		flushed.screenCenter(X);
+		flushed.screenCenter(Y);
+		flushed.visible = false;
+		newupdate.loadGraphic(Paths.image('newupdate'));
+		add(newupdate);
+		newupdate.screenCenter(X);
+		newupdate.screenCenter(Y);
+		newupdate.visible = false;
+		holyshit.loadGraphic(Paths.image('holyshit'));
+		add(holyshit);
+		holyshit.screenCenter(X);
+		holyshit.screenCenter(Y);
+		holyshit.visible = false;
 		blackimp.size = 30;
 		nothingtoshow.size = 30;
 
@@ -146,6 +170,10 @@ class GalleryState extends MusicBeatState
 		blackimp.visible = false;
 		trolled.visible = false;
 		no.visible = false;
+		susy.visible = false;
+		flushed.visible = false;
+		newupdate.visible = false;
+		holyshit.visible = false;
 		switch (curSelected) {
 			case 0:
 				nothingtoshow.visible = true;
@@ -159,6 +187,18 @@ class GalleryState extends MusicBeatState
 			case 3:
 				no.visible = true;
 				bg.color = 0xFF22498F;
+			case 4:
+				susy.visible = true;
+				bg.color = 0xFFFF5733;
+			case 5:
+				flushed.visible = true;
+				bg.color = 0xFF33384C;
+			case 6:
+				newupdate.visible = true;
+				bg.color = 0xFF22498F;
+			case 7:
+				holyshit.visible = true;
+				bg.color = 0xFFFFFFFF;
 			}
 		super.update(elapsed);
 	}
@@ -172,8 +212,8 @@ class GalleryState extends MusicBeatState
 		curSelected += change;
 
 		if (curSelected < 0)
-			curSelected = 1;
-		if (curSelected >= 4)
+			curSelected = 7;
+		if (curSelected >= 8)
 			curSelected = 0;
 	}
 

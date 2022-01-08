@@ -67,6 +67,7 @@ class TitleState extends MusicBeatState
 	var wackyImage:FlxSprite;
 
 	var easterEggEnabled:Bool = true; // Disable this to hide the easter egg
+	var closedsub:Bool = false; // Disable this to hide the easter egg
 	var easterEggKeyCombination:Array<FlxKey> = [FlxKey.B, FlxKey.B]; // bb stands for bbpanzu cuz he wanted this lmao
 	var lastKeysPressed:Array<FlxKey> = [];
 
@@ -420,30 +421,33 @@ class TitleState extends MusicBeatState
 			#end
 		}
 
+
 		if (!transitioning && skippedIntro)
 		{
 			if (pressedEnter) {
-				if (titleText != null) titleText.animation.play('press');
+				if (closedsub) {
+					if (titleText != null) titleText.animation.play('press');
 
-				FlxG.camera.flash(FlxColor.WHITE, 1);
-				FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
-				FlxTween.tween(logo, {x: -1500}, 3.5, {ease: FlxEase.expoInOut});
-				FlxTween.tween(gfDance, {x: -1500}, 3.7, {ease: FlxEase.expoInOut});
-				FlxTween.tween(titleText, {y: 1500}, 3.7, {ease: FlxEase.expoInOut});
+					FlxG.camera.flash(FlxColor.WHITE, 1);
+					FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
+					FlxTween.tween(logo, {x: -1500}, 3.5, {ease: FlxEase.expoInOut});
+					FlxTween.tween(gfDance, {x: -1500}, 3.7, {ease: FlxEase.expoInOut});
+					FlxTween.tween(titleText, {y: 1500}, 3.7, {ease: FlxEase.expoInOut});
 
-				transitioning = true;
-				// FlxG.sound.music.stop();
+					transitioning = true;
+					// FlxG.sound.music.stop();
 
-				new FlxTimer().start(1, function(tmr:FlxTimer)
-				{
-					if (mustUpdate) {
-						MusicBeatState.switchState(new OutdatedState());
-					} else {
-						MusicBeatState.switchState(new MainMenuState());
-					}
-					closedState = true;
-				});
-				// FlxG.sound.play(Paths.music('titleShoot'), 0.7);
+					new FlxTimer().start(1, function(tmr:FlxTimer)
+					{
+						if (mustUpdate) {
+							MusicBeatState.switchState(new OutdatedState());
+						} else {
+							MusicBeatState.switchState(new MainMenuState());
+						}	
+						closedState = true;
+					});
+					// FlxG.sound.play(Paths.music('titleShoot'), 0.7);
+				}
 			}
 			else if(easterEggEnabled)
 			{
@@ -511,6 +515,7 @@ class TitleState extends MusicBeatState
 			}
 		}
 	}
+
 
 	function addMoreText(text:String, ?offset:Float = 0)
 	{
@@ -609,21 +614,29 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 13:
-					addMoreText('Friday');
+					addMoreText('Eminem');
 				// credTextShit.visible = true;
 				case 14:
-					addMoreText('Night');
+					addMoreText('VS');
 				// credTextShit.text += '\nNight';
 				case 15:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('Hitler'); // credTextShit.text += '\nFunkin';
 
 				case 16:
+					deleteCoolText();
 					skipIntro();
 			}
 		}
 	}
 
 	var skippedIntro:Bool = false;
+
+	override function closeSubState() {
+		new FlxTimer().start(0.5, function(tmr:FlxTimer) {
+			closedsub = true;
+		});
+		super.closeSubState();
+	}
 
 	function skipIntro():Void
 	{
@@ -634,6 +647,9 @@ class TitleState extends MusicBeatState
 			FlxG.camera.flash(FlxColor.WHITE, 4);
 			remove(credGroup);
 			skippedIntro = true;
+			new FlxTimer().start(0.05, function(tmr:FlxTimer) {
+				openSubState(new OffendSubState());
+			});
 		}
 	}
 }
