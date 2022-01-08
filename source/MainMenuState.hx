@@ -37,7 +37,7 @@ class MainMenuState extends MusicBeatState
 		'freeplay',
 		'credits',
 		'options',
-		'mods'
+		'gallery'
 	];
 
 	var magenta:FlxSprite;
@@ -247,6 +247,8 @@ class MainMenuState extends MusicBeatState
 									case 'mods':
 										MusicBeatState.switchState(new GalleryState());
 									#end
+									case 'gallery':
+										MusicBeatState.switchState(new GalleryState());
 									case 'awards':
 										MusicBeatState.switchState(new AchievementsMenuState());
 									case 'credits':
