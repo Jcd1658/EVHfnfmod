@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="monoShady.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MonoDown0000" x="0" y="0" width="1447" height="810" frameX="-60" frameY="-120" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0001" x="0" y="0" width="1447" height="810" frameX="-60" frameY="-120" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0002" x="1447" y="0" width="1493" height="895" frameX="-27" frameY="-56" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0003" x="1447" y="0" width="1493" height="895" frameX="-27" frameY="-56" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0004" x="2940" y="0" width="1519" height="943" frameX="-6" frameY="-13" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0005" x="2940" y="0" width="1519" height="943" frameX="-6" frameY="-13" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0006" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0007" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0008" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0009" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0010" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0011" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0012" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0013" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0014" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0015" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0016" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0017" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0018" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoDown0019" x="4459" y="0" width="1523" height="953" frameX="0" frameY="0" frameWidth="1525" frameHeight="956"/>
+	<SubTexture name="MonoIdle0000" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoIdle0001" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoIdle0002" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoIdle0003" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoIdle0004" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoIdle0005" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoIdle0006" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoIdle0007" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoIdle0008" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoIdle0009" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoIdle0010" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoIdle0011" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoIdle0012" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoIdle0013" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoLeft0000" x="0" y="953" width="1423" height="826" frameX="0" frameY="-16" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0001" x="0" y="953" width="1423" height="826" frameX="0" frameY="-16" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0002" x="1423" y="953" width="1423" height="826" frameX="-7" frameY="-13" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0003" x="1423" y="953" width="1423" height="826" frameX="-7" frameY="-13" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0004" x="2846" y="953" width="1423" height="826" frameX="-6" frameY="-11" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0005" x="2846" y="953" width="1423" height="826" frameX="-6" frameY="-11" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0006" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0007" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0008" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0009" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0010" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0011" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0012" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0013" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0014" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0015" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0016" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0017" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0018" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoLeft0019" x="4269" y="953" width="1433" height="845" frameX="-7" frameY="0" frameWidth="1440" frameHeight="845"/>
+	<SubTexture name="MonoReveal0000" x="5702" y="953" width="1384" height="739" frameX="-49" frameY="-32" frameWidth="1481" frameHeight="804"/>
+	<SubTexture name="MonoReveal0001" x="5702" y="953" width="1384" height="739" frameX="-49" frameY="-32" frameWidth="1481" frameHeight="804"/>
+	<SubTexture name="MonoReveal0002" x="0" y="1798" width="1419" height="758" frameX="-31" frameY="-23" frameWidth="1481" frameHeight="804"/>
+	<SubTexture name="MonoReveal0003" x="0" y="1798" width="1419" height="758" frameX="-31" frameY="-23" frameWidth="1481" frameHeight="804"/>
+	<SubTexture name="MonoReveal0004" x="1419" y="1798" width="1438" height="782" frameX="-22" frameY="-11" frameWidth="1481" frameHeight="804"/>
+	<SubTexture name="MonoReveal0005" x="1419" y="1798" width="1438" height="782" frameX="-22" frameY="-11" frameWidth="1481" frameHeight="804"/>
+	<SubTexture name="MonoReveal0006" x="2857" y="1798" width="1481" height="804"/>
+	<SubTexture name="MonoReveal0007" x="2857" y="1798" width="1481" height="804"/>
+	<SubTexture name="MonoReveal0008" x="4338" y="1798" width="1481" height="804"/>
+	<SubTexture name="MonoReveal0009" x="4338" y="1798" width="1481" height="804"/>
+	<SubTexture name="MonoReveal0010" x="5819" y="1798" width="1481" height="804"/>
+	<SubTexture name="MonoReveal0011" x="5819" y="1798" width="1481" height="804"/>
+	<SubTexture name="MonoReveal0012" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoReveal0013" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoReveal0014" x="5982" y="0" width="1481" height="804"/>
+	<SubTexture name="MonoRight0000" x="0" y="2602" width="1511" height="860" frameX="-1" frameY="0" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0001" x="0" y="2602" width="1511" height="860" frameX="-1" frameY="0" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0002" x="1511" y="2602" width="1434" height="828" frameX="0" frameY="-18" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0003" x="1511" y="2602" width="1434" height="828" frameX="0" frameY="-18" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0004" x="2945" y="2602" width="1414" height="791" frameX="-2" frameY="-39" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0005" x="2945" y="2602" width="1414" height="791" frameX="-2" frameY="-39" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0006" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0007" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0008" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0009" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0010" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0011" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0012" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0013" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0014" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0015" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0016" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0017" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0018" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoRight0019" x="2945" y="2602" width="1414" height="791" frameX="0" frameY="-40" frameWidth="1512" frameHeight="860"/>
+	<SubTexture name="MonoUp0000" x="4359" y="2602" width="1471" height="847"/>
+	<SubTexture name="MonoUp0001" x="4359" y="2602" width="1471" height="847"/>
+	<SubTexture name="MonoUp0002" x="5830" y="2602" width="1471" height="827" frameX="0" frameY="-9" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0003" x="5830" y="2602" width="1471" height="827" frameX="0" frameY="-9" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0004" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-13" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0005" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-13" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0006" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0007" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0008" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0009" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0010" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0011" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0012" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0013" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0014" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0015" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0016" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0017" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0018" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+	<SubTexture name="MonoUp0019" x="0" y="3462" width="1471" height="811" frameX="0" frameY="-14" frameWidth="1471" frameHeight="847"/>
+</TextureAtlas>

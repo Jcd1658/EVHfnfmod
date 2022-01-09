@@ -1201,6 +1201,15 @@ class PlayState extends MusicBeatState
 			FlxG.stage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
 			FlxG.stage.addEventListener(KeyboardEvent.KEY_UP, onKeyRelease);
 		}
+		if (PlayState.SONG.song == "Monochrome") {
+			boyfriend.visible = false;
+			gf.visible = false;
+			dad.screenCenter(X);
+			dad.screenCenter(Y);
+			for (i in opponentStrums) {
+				i.visible = false;
+			}
+		} 
 
 		Conductor.safeZoneOffset = (ClientPrefs.safeFrames / 60) * 1000;
 		callOnLuas('onCreatePost', []);
@@ -1962,12 +1971,18 @@ class PlayState extends MusicBeatState
 
 			if (player == 1)
 			{
-				babyArrow.x -= 620;
+				if (PlayState.SONG.song != "Monochrome") {
+					babyArrow.x -= 620;
+				}
 				playerStrums.add(babyArrow);
 			}
 			else
 			{
-				babyArrow.x += 620;
+				if (PlayState.SONG.song != "Monochrome") {
+					babyArrow.x += 620;
+				} else {
+					babyArrow.x = -1000;
+				}
 				if(ClientPrefs.middleScroll)
 				{
 					if(i > 1) { //Up and Right
@@ -2132,6 +2147,11 @@ class PlayState extends MusicBeatState
 
 		callOnLuas('onUpdate', [elapsed]);
 
+		if (PlayState.SONG.song == "Monochrome") {
+			for (i in 0...opponentStrums.length) {
+				opponentStrums.members[i].visible = false;
+			}
+		}
 		switch (curStage)
 		{
 			case 'schoolEvil':

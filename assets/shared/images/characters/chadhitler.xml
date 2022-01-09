@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="chadhitler.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="hitler dies0000" x="0" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0001" x="0" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0002" x="677" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0003" x="1354" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0004" x="2031" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0005" x="2031" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0006" x="2031" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0007" x="2031" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0008" x="2031" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0009" x="2031" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0010" x="2031" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0011" x="2031" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0012" x="2031" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0013" x="2031" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0014" x="2708" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0015" x="3385" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0016" x="3385" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0017" x="4062" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0018" x="4062" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0019" x="4739" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0020" x="4739" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0021" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0022" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0023" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0024" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0025" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0026" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0027" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0028" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0029" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0030" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0031" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0032" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0033" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0034" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0035" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies0036" x="5416" y="0" width="677" height="872"/>
+	<SubTexture name="hitler dies loop0000" x="6093" y="0" width="658" height="856"/>
+	<SubTexture name="hitler dies loop0001" x="6751" y="0" width="658" height="856"/>
+	<SubTexture name="hitler dies loop0002" x="6751" y="0" width="658" height="856"/>
+	<SubTexture name="hitler dies loop0003" x="7409" y="0" width="658" height="856"/>
+	<SubTexture name="hitler dies loop0004" x="7409" y="0" width="658" height="856"/>
+	<SubTexture name="hitler dies loop0005" x="0" y="872" width="658" height="856"/>
+	<SubTexture name="hitler dies loop0006" x="0" y="872" width="658" height="856"/>
+	<SubTexture name="hitler dies loop0007" x="0" y="872" width="658" height="856"/>
+	<SubTexture name="hitler dies loop0008" x="0" y="872" width="658" height="856"/>
+	<SubTexture name="hitler dies loop0009" x="0" y="872" width="658" height="856"/>
+	<SubTexture name="hitler dies loop0010" x="0" y="872" width="658" height="856"/>
+	<SubTexture name="hitler dies loop0011" x="0" y="872" width="658" height="856"/>
+	<SubTexture name="hitler dies loop0012" x="0" y="872" width="658" height="856"/>
+	<SubTexture name="hitler dies loop0013" x="0" y="872" width="658" height="856"/>
+	<SubTexture name="hitler down0000" x="658" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0001" x="658" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0002" x="1116" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0003" x="1116" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0004" x="1116" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0005" x="1116" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0006" x="1116" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0007" x="1116" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0008" x="1116" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0009" x="1116" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0010" x="1116" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0011" x="1116" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0012" x="1116" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0013" x="1116" y="872" width="458" height="879"/>
+	<SubTexture name="hitler down0014" x="1116" y="872" width="458" height="879"/>
+	<SubTexture name="hitler idle0000" x="1574" y="872" width="485" height="882"/>
+	<SubTexture name="hitler idle0001" x="1574" y="872" width="485" height="882"/>
+	<SubTexture name="hitler idle0002" x="2059" y="872" width="485" height="882"/>
+	<SubTexture name="hitler idle0003" x="2059" y="872" width="485" height="882"/>
+	<SubTexture name="hitler idle0004" x="2544" y="872" width="485" height="882"/>
+	<SubTexture name="hitler idle0005" x="2544" y="872" width="485" height="882"/>
+	<SubTexture name="hitler idle0006" x="3029" y="872" width="485" height="882"/>
+	<SubTexture name="hitler idle0007" x="3029" y="872" width="485" height="882"/>
+	<SubTexture name="hitler idle0008" x="3514" y="872" width="485" height="882"/>
+	<SubTexture name="hitler idle0009" x="3514" y="872" width="485" height="882"/>
+	<SubTexture name="hitler idle0010" x="3514" y="872" width="485" height="882"/>
+	<SubTexture name="hitler idle0011" x="3514" y="872" width="485" height="882"/>
+	<SubTexture name="hitler idle0012" x="3514" y="872" width="485" height="882"/>
+	<SubTexture name="hitler idle0013" x="3514" y="872" width="485" height="882"/>
+	<SubTexture name="hitler left0000" x="3999" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0001" x="3999" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0002" x="4491" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0003" x="4491" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0004" x="4491" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0005" x="4491" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0006" x="4491" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0007" x="4491" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0008" x="4491" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0009" x="4491" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0010" x="4491" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0011" x="4491" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0012" x="4491" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0013" x="4491" y="872" width="492" height="878"/>
+	<SubTexture name="hitler left0014" x="4491" y="872" width="492" height="878"/>
+	<SubTexture name="hitler miss down0000" x="4983" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0001" x="4983" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0002" x="5441" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0003" x="5441" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0004" x="5441" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0005" x="5441" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0006" x="5441" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0007" x="5441" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0008" x="5441" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0009" x="5441" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0010" x="5441" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0011" x="5441" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0012" x="5441" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0013" x="5441" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss down0014" x="5441" y="872" width="458" height="939"/>
+	<SubTexture name="hitler miss left0000" x="5899" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0001" x="5899" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0002" x="6391" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0003" x="6391" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0004" x="6391" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0005" x="6391" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0006" x="6391" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0007" x="6391" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0008" x="6391" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0009" x="6391" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0010" x="6391" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0011" x="6391" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0012" x="6391" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0013" x="6391" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss left0014" x="6391" y="872" width="492" height="967"/>
+	<SubTexture name="hitler miss right0000" x="6883" y="872" width="507" height="939"/>
+	<SubTexture name="hitler miss right0001" x="7390" y="872" width="507" height="939"/>
+	<SubTexture name="hitler miss right0002" x="0" y="1839" width="507" height="939"/>
+	<SubTexture name="hitler miss right0003" x="507" y="1839" width="507" height="939"/>
+	<SubTexture name="hitler miss right0004" x="0" y="1839" width="507" height="939"/>
+	<SubTexture name="hitler miss right0005" x="507" y="1839" width="507" height="939"/>
+	<SubTexture name="hitler miss right0006" x="0" y="1839" width="507" height="939"/>
+	<SubTexture name="hitler miss right0007" x="507" y="1839" width="507" height="939"/>
+	<SubTexture name="hitler miss right0008" x="0" y="1839" width="507" height="939"/>
+	<SubTexture name="hitler miss right0009" x="507" y="1839" width="507" height="939"/>
+	<SubTexture name="hitler miss right0010" x="0" y="1839" width="507" height="939"/>
+	<SubTexture name="hitler miss right0011" x="507" y="1839" width="507" height="939"/>
+	<SubTexture name="hitler miss right0012" x="0" y="1839" width="507" height="939"/>
+	<SubTexture name="hitler miss right0013" x="507" y="1839" width="507" height="939"/>
+	<SubTexture name="hitler miss right0014" x="0" y="1839" width="507" height="939"/>
+	<SubTexture name="hitler miss up0000" x="1014" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0001" x="1014" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0002" x="1885" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0003" x="1885" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0004" x="1885" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0005" x="1885" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0006" x="1885" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0007" x="1885" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0008" x="1885" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0009" x="1885" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0010" x="1885" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0011" x="1885" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0012" x="1885" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0013" x="1885" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler miss up0014" x="1885" y="1839" width="871" height="936"/>
+	<SubTexture name="hitler right0000" x="2756" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0001" x="2756" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0002" x="3263" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0003" x="3263" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0004" x="3263" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0005" x="3263" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0006" x="3263" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0007" x="3263" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0008" x="3263" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0009" x="3263" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0010" x="3263" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0011" x="3263" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0012" x="3263" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0013" x="3263" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler right0014" x="3263" y="1839" width="507" height="885"/>
+	<SubTexture name="hitler undead0000" x="6093" y="0" width="658" height="856"/>
+	<SubTexture name="hitler undead0001" x="3770" y="1839" width="658" height="856"/>
+	<SubTexture name="hitler undead0002" x="4428" y="1839" width="658" height="856"/>
+	<SubTexture name="hitler undead0003" x="5086" y="1839" width="658" height="856"/>
+	<SubTexture name="hitler undead0004" x="5744" y="1839" width="658" height="856"/>
+	<SubTexture name="hitler undead0005" x="6402" y="1839" width="658" height="856"/>
+	<SubTexture name="hitler undead0006" x="7060" y="1839" width="658" height="856"/>
+	<SubTexture name="hitler undead0007" x="0" y="2778" width="658" height="856"/>
+	<SubTexture name="hitler undead0008" x="658" y="2778" width="658" height="856"/>
+	<SubTexture name="hitler undead0009" x="1316" y="2778" width="658" height="856"/>
+	<SubTexture name="hitler undead0010" x="1974" y="2778" width="658" height="856"/>
+	<SubTexture name="hitler undead0011" x="2632" y="2778" width="658" height="856"/>
+	<SubTexture name="hitler undead0012" x="3290" y="2778" width="658" height="856"/>
+	<SubTexture name="hitler undead0013" x="3948" y="2778" width="658" height="856"/>
+	<SubTexture name="hitler undead0014" x="4606" y="2778" width="658" height="856"/>
+	<SubTexture name="hitler undead0015" x="5264" y="2778" width="658" height="856"/>
+	<SubTexture name="hitler undead0016" x="5922" y="2778" width="658" height="856"/>
+	<SubTexture name="hitler undead0017" x="6580" y="2778" width="658" height="856"/>
+	<SubTexture name="hitler undead0018" x="7238" y="2778" width="658" height="856"/>
+	<SubTexture name="hitler undead0019" x="0" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0020" x="658" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0021" x="1316" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0022" x="1974" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0023" x="2632" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0024" x="3290" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0025" x="3290" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0026" x="3290" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0027" x="3290" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0028" x="3290" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0029" x="3290" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0030" x="3290" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0031" x="3290" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0032" x="3290" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler undead0033" x="3290" y="3634" width="658" height="856"/>
+	<SubTexture name="hitler up0000" x="3948" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0001" x="3948" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0002" x="4411" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0003" x="4411" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0004" x="4411" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0005" x="4411" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0006" x="4411" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0007" x="4411" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0008" x="4411" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0009" x="4411" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0010" x="4411" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0011" x="4411" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0012" x="4411" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0013" x="4411" y="3634" width="463" height="887"/>
+	<SubTexture name="hitler up0014" x="4411" y="3634" width="463" height="887"/>
+</TextureAtlas>
