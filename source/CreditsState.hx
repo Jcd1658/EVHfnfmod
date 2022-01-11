@@ -81,7 +81,6 @@ class CreditsState extends MusicBeatState
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['EVH Team'],
 			['ThatOneCupid', 'cupid', 'Mod Creator/Charter', 'https://www.youtube.com/channel/UCOvgLyADlnRA_GjfXGxeCLw/featured', '9E51FF'],
-			['Swiffzz', 'swif', 'Mod Artist', 'https://www.youtube.com/channel/UCHBIA6smUJUnJ6qqy8vlFOg', '8AFF7C'],
 			['Bacon', 'none', 'Mod Coder', '', '53E52C'],
 			['agmas', 'agmas', 'Mod Coder', 'https://www.youtube.com/watch?v=qYN8yVBWCo4', 'FFFFFF'],
 			['SUS_CRASH', 'crash', 'Trailer Maker', '', 'FF3939'],
@@ -92,8 +91,7 @@ class CreditsState extends MusicBeatState
 			['JayD', 'JayD', 'Eminem Vocals', 'https://www.youtube.com/channel/UC2dUkG2-HNdYIy8o3LaO2Tg', '626262'],
 			['RekuS', 'none', 'Pause, Menu Music', 'https://gamebanana.com/members/2057636', 'FFFDFD'],
 			['AngelRodz', 'none', 'Uhmmm... I forgor..', 'https://www.youtube.com/channel/UCi4tiqWYqlhxRsxCvS9H_vw', 'FFFDFD'],
-			['Stronger Than You'],
-			['Eminem Cover', 'none', 'Press enter to play', 'https://www.youtube.com/watch?v=EaKHcpaRZ5s', 'FFFFFF'],	
+			['Swiffzz', 'swif', 'Mod Artist', 'https://www.youtube.com/channel/UCHBIA6smUJUnJ6qqy8vlFOg', '8AFF7C'],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',						'https://twitter.com/Shadow_Mario_',	'444444'],
