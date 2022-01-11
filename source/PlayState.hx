@@ -1027,7 +1027,7 @@ class PlayState extends MusicBeatState
 		add(scoreTxt);
 
 		versionTxt = new FlxText(0, FlxG.height - 24, 0, SONG.song + " - " +
-			CoolUtil.difficultyString();
+			CoolUtil.difficultyString());
 		versionTxt.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		versionTxt.scrollFactor.set();
 		add(versionTxt);
