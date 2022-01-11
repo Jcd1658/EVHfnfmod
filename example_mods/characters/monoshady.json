@@ -2,69 +2,69 @@
 	"animations": [
 		{
 			"offsets": [
-				370,
-				20
+				375,
+				91
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle",
+			"indices": [],
+			"name": "MonoIdle"
+		},
+		{
+			"offsets": [
+				371,
+				120
+			],
 			"loop": false,
-			"name": "monoshady MonoIdle"
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "MonoLeft"
 		},
 		{
 			"offsets": [
 				330,
-				57
+				160
 			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singRIGHT",
 			"loop": false,
-			"name": "monoshady MonoRight"
-		},
-		{
-			"offsets": [
-				401,
-				20
-			],
-			"indices": [],
 			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "monoshady MonoDown"
+			"indices": [],
+			"name": "MonoDown"
 		},
 		{
 			"offsets": [
-				353,
-				50
+				352,
+				117
 			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singLEFT",
 			"loop": false,
-			"name": "monoshady MonoLeft"
-		},
-		{
-			"offsets": [
-				364,
-				60
-			],
-			"indices": [],
 			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "monoshady MonoUp"
+			"indices": [],
+			"name": "MonoUp"
 		},
 		{
 			"offsets": [
-				370,
-				20
+				300,
+				137
 			],
-			"indices": [],
-			"fps": 24,
-			"anim": "idle-alt",
 			"loop": false,
-			"name": "monoshady MonoReveal"
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "MonoRight"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				377,
+				90
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "MonoReveal",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -73,16 +73,16 @@
 		0,
 		0
 	],
-	"healthicon": "eminem",
+	"healthicon": "monoShady",
 	"flip_x": false,
 	"healthbar_colors": [
-		255,
-		255,
-		255
+		62,
+		62,
+		62
 	],
 	"camera_position": [
-		0,
-		0
+		-570,
+		-60
 	],
 	"sing_duration": 6.1,
 	"scale": 1

@@ -1211,6 +1211,20 @@ class PlayState extends MusicBeatState
 			}
 		} 
 
+		var shader:VCRDistortionShader = new VCRDistortionShader();
+
+		shader.iTime.value = [170];
+		shader.vignetteOn.value = [true];
+		shader.perspectiveOn.value = [true];
+		shader.distortionOn.value = [true];
+		shader.scanlinesOn.value = [false];
+		shader.vignetteMoving.value = [true];
+		shader.glitchModifier.value = [0];
+
+		camGame.setFilters([new ShaderFilter(shader)]);
+
+		camHUD.setFilters([new ShaderFilter(shader)]);
+
 		Conductor.safeZoneOffset = (ClientPrefs.safeFrames / 60) * 1000;
 		callOnLuas('onCreatePost', []);
 		super.create();

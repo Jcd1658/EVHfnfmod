@@ -569,6 +569,7 @@ class TitleState extends MusicBeatState
 					addMoreText('ThatOneCUpid', -85);
 					addMoreText('agmas', -85);
 					addMoreText('bacon', -85);
+					addMoreText('SUS_CRASH', -85);
 				// credTextShit.visible = true;
 				case 2:
 					deleteCoolText();

@@ -81,9 +81,10 @@ class CreditsState extends MusicBeatState
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['EVH Team'],
 			['ThatOneCupid', 'cupid', 'Mod Creator/Charter', 'https://www.youtube.com/channel/UCOvgLyADlnRA_GjfXGxeCLw/featured', '9E51FF'],
-			['Swiffzz', 'none', 'Mod Artist', 'https://www.youtube.com/channel/UCHBIA6smUJUnJ6qqy8vlFOg', '8AFF7C'],
+			['Swiffzz', 'swif', 'Mod Artist', 'https://www.youtube.com/channel/UCHBIA6smUJUnJ6qqy8vlFOg', '8AFF7C'],
 			['Bacon', 'none', 'Mod Coder', '', '53E52C'],
 			['agmas', 'agmas', 'Mod Coder', 'https://www.youtube.com/watch?v=qYN8yVBWCo4', 'FFFFFF'],
+			['SUS_CRASH', 'crash', 'Trailer Maker', '', 'FF3939'],
 			['yelloguy', 'yelloguy', 'Artist', '', 'FFBB1B'],
 			['Troll_Man', 'Sex', '.. Being Hitler?', 'https://twitter.com/0TrollGuy0', '46D000'],
 			['Eminem', 'none', 'Eminem.', 'https://www.google.com/search?q=eminem&oq=eminem&aqs=chrome..69i57j46i67j0i67j46i67l2j69i61l2j69i60.1312j0j1&sourceid=chrome&ie=UTF-8', 'C0C0C0'],
