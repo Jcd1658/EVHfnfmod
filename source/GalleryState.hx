@@ -34,7 +34,8 @@ class GalleryState extends MusicBeatState
 	var flushed = new FlxSprite();
 	var newupdate = new FlxSprite();
 	var holyshit = new FlxSprite();
-	var blackimp:FlxText;	
+	var blackimp:FlxText;
+	var fnaym:FlxText;	
 	var curSelected:Int;
 
 	override function create()
@@ -47,6 +48,8 @@ class GalleryState extends MusicBeatState
 		nothingtoshow.visible = false;
 		blackimp = new FlxText(100,FlxG.camera.height / 2, 3500, "eminem vs black impostor [Press Space to Play]");
 		add(blackimp);
+		fnaym = new FlxText(100,FlxG.camera.height / 2, 3500, "five night at your mom's [Press Space to Play]");
+		add(fnaym);
 		blackimp.visible = false;
 		trolled.loadGraphic(Paths.image('trolled'));
 		add(trolled);
@@ -79,6 +82,7 @@ class GalleryState extends MusicBeatState
 		holyshit.screenCenter(Y);
 		holyshit.visible = false;
 		blackimp.size = 30;
+		fnaym.size = 30;
 		nothingtoshow.size = 30;
 
 		super.create();
@@ -146,6 +150,9 @@ class GalleryState extends MusicBeatState
 				case 1:
 					FlxG.sound.music.stop();
 					MusicBeatState.switchState(new VideoState("blackimp"));
+				case 2:
+					FlxG.sound.music.stop();
+					MusicBeatState.switchState(new VideoState("fnaym"));
 				default:
 					FlxG.sound.play(Paths.sound('cancelMenu'));
 			}
@@ -157,6 +164,9 @@ class GalleryState extends MusicBeatState
 				case 1:
 					FlxG.sound.music.stop();
 					MusicBeatState.switchState(new VideoState("blackimp"));
+				case 8:
+					FlxG.sound.music.stop();
+					MusicBeatState.switchState(new VideoState("fnaym"));
 				default:
 					FlxG.sound.play(Paths.sound('cancelMenu'));
 			}
@@ -170,6 +180,7 @@ class GalleryState extends MusicBeatState
 		blackimp.visible = false;
 		trolled.visible = false;
 		no.visible = false;
+		fnaym.visible = false;
 		susy.visible = false;
 		flushed.visible = false;
 		newupdate.visible = false;
@@ -199,6 +210,9 @@ class GalleryState extends MusicBeatState
 			case 7:
 				holyshit.visible = true;
 				bg.color = 0xFFFFFFFF;
+			case 8:
+				fnaym.visible = true;
+				bg.color = 0xFFBA44F4;
 			}
 		super.update(elapsed);
 	}
@@ -212,8 +226,8 @@ class GalleryState extends MusicBeatState
 		curSelected += change;
 
 		if (curSelected < 0)
-			curSelected = 7;
-		if (curSelected >= 8)
+			curSelected = 8;
+		if (curSelected >= 9)
 			curSelected = 0;
 	}
 
