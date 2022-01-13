@@ -82,7 +82,6 @@ class CreditsState extends MusicBeatState
 			['EVH Team'],
 			['ThatOneCupid', 'cupid', 'Mod Creator/Charter', 'https://www.youtube.com/channel/UCOvgLyADlnRA_GjfXGxeCLw/featured', '9E51FF'],
 			['RekuS', 'rekusicon1', 'Instrumentals', 'https://gamebanana.com/members/2057636', 'FFFDFD'],
-			['Bacon', 'none', 'Mod Coder', '', '53E52C'],
 			['agmas', 'agmas', 'Mod Coder', 'https://www.youtube.com/watch?v=qYN8yVBWCo4', 'FFFFFF'],
 			['SUS_CRASH', 'crash', 'Trailer Maker', '', 'FF3939'],
 			['yelloguy', 'yelloguy', 'Artist', '', 'FFBB1B'],
