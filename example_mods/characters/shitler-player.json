@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				400
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "hitler idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				397
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "hitler right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				371
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "hitler down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-29,
+				417
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "hitler up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				38,
+				393
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "hitler left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				421
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "hitler miss down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				381,
+				463
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "hitler miss up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				440
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "hitler miss right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				166,
+				375
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "hitler dies",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				158,
+				369
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "hitler dies loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				158,
+				369
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "hitler undead",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				36,
+				472
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "hitler miss left",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/hitlercens",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "hitler-icons",
+	"flip_x": true,
+	"healthbar_colors": [
+		89,
+		89,
+		89
+	],
+	"camera_position": [
+		0,
+		-320
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

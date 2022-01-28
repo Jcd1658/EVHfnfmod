@@ -56,6 +56,13 @@ class GameOverSubstate extends MusicBeatSubstate
 		add(boyfriend);
 
 		camFollow = new FlxPoint(boyfriend.getGraphicMidpoint().x, boyfriend.getGraphicMidpoint().y);
+		if (boyfriend.curCharacter == "eminem-player-death") {
+			camFollow.x -= 200;
+			camFollow.y -= 380;
+		}
+		if (boyfriend.curCharacter == "hitler-player") {
+			camFollow.y -= 380;
+		}
 
 		FlxG.sound.play(Paths.sound(deathSoundName));
 		Conductor.changeBPM(100);

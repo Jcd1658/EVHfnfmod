@@ -34,6 +34,9 @@ class GalleryState extends MusicBeatState
 	var flushed = new FlxSprite();
 	var newupdate = new FlxSprite();
 	var holyshit = new FlxSprite();
+	var emin = new FlxSprite();
+	var weary = new FlxSprite();
+	var slendarman = new FlxSprite();
 	var blackimp:FlxText;
 	var fnaym:FlxText;	
 	var curSelected:Int;
@@ -81,6 +84,21 @@ class GalleryState extends MusicBeatState
 		holyshit.screenCenter(X);
 		holyshit.screenCenter(Y);
 		holyshit.visible = false;
+		emin.loadGraphic(Paths.image('beepboopbap'));
+		add(emin);
+		emin.screenCenter(X);
+		emin.screenCenter(Y);
+		emin.visible = false;
+		weary.loadGraphic(Paths.image('AGMASNO'));
+		add(weary);
+		weary.screenCenter(X);
+		weary.screenCenter(Y);
+		weary.visible = false;
+		slendarman.loadGraphic(Paths.image('unknown'));
+		add(slendarman);
+		slendarman.screenCenter(X);
+		slendarman.screenCenter(Y);
+		slendarman.visible = false;
 		blackimp.size = 30;
 		fnaym.size = 30;
 		nothingtoshow.size = 30;
@@ -185,6 +203,9 @@ class GalleryState extends MusicBeatState
 		flushed.visible = false;
 		newupdate.visible = false;
 		holyshit.visible = false;
+		emin.visible = false;
+		weary.visible = false;
+		slendarman.visible = false;
 		switch (curSelected) {
 			case 0:
 				nothingtoshow.visible = true;
@@ -213,6 +234,16 @@ class GalleryState extends MusicBeatState
 			case 8:
 				fnaym.visible = true;
 				bg.color = 0xFFBA44F4;
+			case 9:
+				emin.visible = true;
+				bg.color = 0xFF33384C;
+			case 10:
+				weary.visible = true;
+				bg.color = 0xFF33384C;
+			case 11:
+				slendarman.visible = true;
+				bg.color = 0xFF33384C;
+
 			}
 		super.update(elapsed);
 	}

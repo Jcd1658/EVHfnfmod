@@ -1,0 +1,67 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				500
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "Eminem First Death",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				162,
+				506
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "Eminem Death Confirm",
+			"indices": []
+		},
+		{
+			"offsets": [
+				158,
+				487
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "Eminem Death Loop"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "",
+			"fps": 24,
+			"name": "",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/eminem-player-death",
+	"position": [
+		0,
+		540
+	],
+	"healthicon": "eminem-icons",
+	"flip_x": false,
+	"healthbar_colors": [
+		48,
+		48,
+		48
+	],
+	"camera_position": [
+		-160,
+		-820
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}

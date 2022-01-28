@@ -17,6 +17,7 @@ class ClientPrefs {
 	public static var framerate:Int = 60;
 	public static var cursing:Bool = true;
 	public static var naughtiness:Bool = true;
+	public static var hitlerplay:Bool = false;
 	public static var violence:Bool = true;
 	public static var camZooms:Bool = true;
 	public static var hideHud:Bool = false;
@@ -108,6 +109,7 @@ class ClientPrefs {
 		FlxG.save.data.lowQuality = lowQuality;
 		FlxG.save.data.framerate = framerate;
 		FlxG.save.data.naughtiness = naughtiness;
+		FlxG.save.data.hitlerplay = hitlerplay;
 		//FlxG.save.data.cursing = cursing;
 		//FlxG.save.data.violence = violence;
 		FlxG.save.data.camZooms = camZooms;
@@ -160,6 +162,10 @@ class ClientPrefs {
 		if (FlxG.save.data.naughtiness != null)
 		{
 			naughtiness = FlxG.save.data.naughtiness;
+		}
+		if (FlxG.save.data.hitlerplay != null)
+		{
+			hitlerplay = FlxG.save.data.hitlerplay;
 		}
 		if (FlxG.save.data.downScroll != null)
 		{

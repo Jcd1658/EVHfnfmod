@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-6,
+				400
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "hitler idle"
+		},
+		{
+			"offsets": [
+				-15,
+				397
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "hitler right0"
+		},
+		{
+			"offsets": [
+				0,
+				371
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "hitler down0"
+		},
+		{
+			"offsets": [
+				-29,
+				417
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "hitler up0"
+		},
+		{
+			"offsets": [
+				38,
+				393
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "hitler left0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/hitlercens",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "hitler-icons",
+	"flip_x": false,
+	"healthbar_colors": [
+		89,
+		89,
+		89
+	],
+	"camera_position": [
+		-490,
+		-320
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

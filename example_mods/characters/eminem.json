@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				184,
+				506
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Eminem Idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				275,
+				424
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Eminem Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				230,
+				380
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Eminem Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				202,
+				527
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Eminem Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				182,
+				473
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Eminem Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				184,
+				506
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "Eminem Haha",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/eminem-player",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "eminem-icons",
+	"flip_x": false,
+	"healthbar_colors": [
+		48,
+		48,
+		48
+	],
+	"camera_position": [
+		-70,
+		-270
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}
