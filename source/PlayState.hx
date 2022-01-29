@@ -1230,51 +1230,7 @@ class PlayState extends MusicBeatState
 		Conductor.safeZoneOffset = (ClientPrefs.safeFrames / 60) * 1000;
 		callOnLuas('onCreatePost', []);
 		super.create();
-		if (ClientPrefs.hitlerplay) {
-			if (boyfriend.curCharacter == "eminem-player") {
-				if(boyfriend.curCharacter != 'garbagetext') {
-					var hitlerType:String = "hitler-player";
-					if (!ClientPrefs.naughtiness) {
-						hitlerType = "shitler-player";
-					}
-					if(!boyfriendMap.exists('garbagetext')) {
-						addCharacterToList(hitlerType, 0);
-					}
-
-					var lastAlpha:Float = boyfriend.alpha;
-					boyfriend.alpha = 0.00001;
-					boyfriend = boyfriendMap.get(hitlerType);
-					boyfriend.alpha = lastAlpha;
-					iconP1.changeIcon(boyfriend.healthIcon);
-				}
-				setOnLuas('boyfriendName', boyfriend.curCharacter);
-			}
-		} else {
-			if (!ClientPrefs.naughtiness) {
-				if (dad.curCharacter == "hitler") {
-					if(dad.curCharacter != "b") {
-						if(!dadMap.exists("heheheh")) {
-							addCharacterToList("shitler", 1);
-						}
-
-						var wasGf:Bool = dad.curCharacter.startsWith('gf');
-						var lastAlpha:Float = dad.alpha;
-						dad.alpha = 0.00001;
-						dad = dadMap.get("shitler");
-						if(!dad.curCharacter.startsWith('gf')) {
-							if(wasGf) {
-								gf.visible = true;
-							}
-						} else {
-							gf.visible = false;
-						}
-						dad.alpha = lastAlpha;
-						iconP2.changeIcon(dad.healthIcon);
-					}
-					setOnLuas('dadName', dad.curCharacter);
-				}
-			}
-		}
+		gf.visible = false;
 	}
 
 	function set_songSpeed(value:Float):Float
@@ -2055,7 +2011,7 @@ class PlayState extends MusicBeatState
 				if (PlayState.SONG.song != "Monochrome") {
 					babyArrow.x -= 620;
 				}
-				if (boyfriend.curCharacter == "hitler-player") {
+				if (ClientPrefs.hitlerplay) {
 					babyArrow.x += 620;
 				}
 				playerStrums.add(babyArrow);
@@ -2064,12 +2020,16 @@ class PlayState extends MusicBeatState
 			{
 				if (PlayState.SONG.song != "Monochrome") {
 					babyArrow.x += 620;
+					if (ClientPrefs.hitlerplay) {
+						babyArrow.x -= 620;
+					}
 				} else {
-					if (boyfriend.curCharacter == "hitler-player") {
-						babyArrow.x += 620;
+					babyArrow.x = -1000;
+					/*if (boyfriend.curCharacter == "hitler-player") {
+						babyArrow.x -= 620;
 					} else {
 						babyArrow.x = -1000;
-					}
+					}*/
 				}
 				if(ClientPrefs.middleScroll)
 				{
@@ -4031,6 +3991,9 @@ class PlayState extends MusicBeatState
 			if(SONG.notes[curSection].gfSection || note.noteType == 'GF Sing') {
 				char = gf;
 			}
+			if (ClientPrefs.hitlerplay) {
+				char = boyfriend;
+			}
 
 			char.playAnim('sing' + animToPlay, true);
 			char.holdTimer = 0;
@@ -4129,8 +4092,13 @@ class PlayState extends MusicBeatState
 						gf.playAnim('sing' + animToPlay + daAlt, true);
 						gf.holdTimer = 0;
 					} else {
-						boyfriend.playAnim('sing' + animToPlay + daAlt, true);
-						boyfriend.holdTimer = 0;
+						if (!ClientPrefs.hitlerplay) {
+							boyfriend.playAnim('sing' + animToPlay + daAlt, true);
+							boyfriend.holdTimer = 0;
+						} else {
+							dad.playAnim('sing' + animToPlay, true);
+							dad.holdTimer = 0;
+						}
 					}
 				//}
 				if(note.noteType == 'Hey!') {

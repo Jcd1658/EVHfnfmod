@@ -34,7 +34,7 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		title = 'Gameplay Settings';
 		rpcTitle = 'Gameplay Settings Menu'; //for Discord Rich Presence
 		var option:Option = new Option('Play As Hitler', // Name
-		"Play as hitler!", // Description
+		"Play as Hitler!", // Description
 		'hitlerplay', // Save data variable name
 		'bool', // Variable type
 		false); // Default value
