@@ -1,202 +1,202 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				15,
 				19
 			],
-			"anim": "hurt",
+			"loop": false,
 			"fps": 24,
-			"name": "BF hit",
-			"indices": []
+			"anim": "hurt",
+			"indices": [],
+			"name": "BF hit"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				-4,
 				0
 			],
-			"anim": "scared",
+			"loop": true,
 			"fps": 24,
-			"name": "BF idle shaking",
-			"indices": []
+			"anim": "scared",
+			"indices": [],
+			"name": "BF idle shaking"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				37,
 				11
 			],
-			"anim": "firstDeath",
+			"loop": false,
 			"fps": 24,
-			"name": "BF dies",
-			"indices": []
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "BF dies"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				37,
 				5
 			],
-			"anim": "deathLoop",
+			"loop": true,
 			"fps": 24,
-			"name": "BF Dead Loop",
-			"indices": []
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "BF Dead Loop"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				37,
 				69
 			],
-			"anim": "deathConfirm",
+			"loop": false,
 			"fps": 24,
-			"name": "BF Dead confirm",
-			"indices": []
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "BF Dead confirm"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-10,
 				-16
 			],
-			"anim": "dodge",
+			"loop": false,
 			"fps": 24,
-			"name": "boyfriend dodge",
-			"indices": []
+			"anim": "dodge",
+			"indices": [],
+			"name": "boyfriend dodge"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				294,
 				267
 			],
-			"anim": "attack",
+			"loop": false,
 			"fps": 24,
-			"name": "boyfriend attack",
-			"indices": []
+			"anim": "attack",
+			"indices": [],
+			"name": "boyfriend attack"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-40,
 				-40
 			],
-			"anim": "pre-attack",
-			"fps": 24,
-			"name": "bf pre attack",
-			"indices": []
-		},
-		{
-			"loop": true,
-			"offsets": [
-				527,
-				340
-			],
-			"anim": "idle",
-			"fps": 24,
-			"name": "Eminem Idle",
-			"indices": []
-		},
-		{
 			"loop": false,
+			"fps": 24,
+			"anim": "pre-attack",
+			"indices": [],
+			"name": "bf pre attack"
+		},
+		{
 			"offsets": [
-				665,
+				327,
+				310
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Eminem Idle"
+		},
+		{
+			"offsets": [
+				465,
+				179
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Eminem Left0"
+		},
+		{
+			"offsets": [
+				375,
+				143
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Eminem Down0"
+		},
+		{
+			"offsets": [
+				325,
+				310
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Eminem Up0"
+		},
+		{
+			"offsets": [
+				295,
+				270
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Eminem Right0"
+		},
+		{
+			"offsets": [
+				375,
 				209
 			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Eminem Left0",
-			"indices": []
-		},
-		{
 			"loop": false,
-			"offsets": [
-				575,
-				173
-			],
-			"anim": "singDOWN",
 			"fps": 24,
-			"name": "Eminem Down0",
-			"indices": []
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Eminem Left Miss"
 		},
 		{
+			"offsets": [
+				375,
+				163
+			],
 			"loop": false,
-			"offsets": [
-				525,
-				340
-			],
-			"anim": "singUP",
 			"fps": 24,
-			"name": "Eminem Up0",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Eminem Down Miss"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				495,
+				325,
 				320
 			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Eminem Right0",
-			"indices": []
-		},
-		{
 			"loop": false,
-			"offsets": [
-				575,
-				239
-			],
-			"anim": "singLEFTmiss",
 			"fps": 24,
-			"name": "Eminem Left Miss",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				575,
-				193
-			],
-			"anim": "singDOWNmiss",
-			"fps": 24,
-			"name": "Eminem Down Miss",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				525,
-				350
-			],
 			"anim": "singUPmiss",
-			"fps": 24,
-			"name": "Eminem Up Miss",
-			"indices": []
+			"indices": [],
+			"name": "Eminem Up Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				525,
-				290
+				325,
+				260
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHTmiss",
-			"fps": 24,
-			"name": "Eminem Right Miss",
-			"indices": []
+			"indices": [],
+			"name": "Eminem Right Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				535,
-				340
+				335,
+				310
 			],
-			"anim": "hey",
+			"loop": false,
 			"fps": 24,
-			"name": "Eminem Haha",
-			"indices": []
+			"anim": "hey",
+			"indices": [],
+			"name": "Eminem Haha"
 		}
 	],
 	"no_antialiasing": false,
@@ -217,5 +217,5 @@
 		-190
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 0.8
 }

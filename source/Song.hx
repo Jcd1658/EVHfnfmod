@@ -49,38 +49,39 @@ class Song
 	public var player3:String = 'gf'; //deprecated
 	public var gfVersion:String = 'gf';
 
-	private static function onLoadJson(songJson) // Convert old charts to newest format
-	{
-		if(songJson.gfVersion == null)
+	private static function onLoadJson(songJson1:SwagSong) // Convert old charts to newest format
 		{
-			songJson.gfVersion = songJson.player3;
-			songJson.player3 = null;
-		}
-
-		if(songJson.events == null)
-		{
-			songJson.events = [];
-			for (secNum in 0...songJson.notes.length)
+			var songJson:SwagSong = cast songJson1;
+	
+			if(songJson.gfVersion == null)
 			{
-				var sec:SwagSection = songJson.notes[secNum];
-
-				var i:Int = 0;
-				var notes:Array<Dynamic> = sec.sectionNotes;
-				var len:Int = notes.length;
-				while(i < len)
+				songJson.gfVersion = songJson.player3;
+				songJson.player3 = null;
+			}
+	
+			if(songJson.events == null)
+			{
+				songJson.events = [];
+				for (secNum in 0...songJson.notes.length)
 				{
-					var note:Array<Dynamic> = notes[i];
-					if(note[1] < 0)
+					var sec:Dynamic = songJson.notes[secNum];
+	
+					var i:Int = 0;
+					var len:Int = sec.sectionNotes.length;
+					while(i < len)
 					{
-						songJson.events.push([note[0], [[note[2], note[3], note[4]]]]);
-						notes.remove(note);
-						len = notes.length;
+						var note:Array<Dynamic> = sec.sectionNotes[i];
+						if(note[1] < 0)
+						{
+							songJson.events.push([note[0], [[note[2], note[3], note[4]]]]);
+							sec.sectionNotes.remove(note);
+							len = sec.sectionNotes.length;
+						}
+						else i++;
 					}
-					else i++;
 				}
 			}
 		}
-	}
 
 	public function new(song, notes, bpm)
 	{

@@ -989,36 +989,77 @@ class PlayState extends MusicBeatState
 		FlxG.fixedTimestep = false;
 		moveCameraSection(0);
 
-		healthBarBG = new AttachedSprite('healthBar');
-		healthBarBG.y = FlxG.height * 0.89;
-		healthBarBG.screenCenter(X);
-		healthBarBG.scrollFactor.set();
-		healthBarBG.xAdd = -4;
-		healthBarBG.yAdd = -4;
-		add(healthBarBG);
-		if(ClientPrefs.downScroll) healthBarBG.y = 0.11 * FlxG.height;
+		if (SONG.song.toLowerCase() == 'lethal')
+		{
+			healthBarBG = new AttachedSprite('healthBar');
+			healthBarBG.y = FlxG.height * 0.89;
+			healthBarBG.screenCenter(X);
+			healthBarBG.scrollFactor.set();
+			healthBarBG.xAdd = -4;
+			healthBarBG.yAdd = -4;
+			healthBarBG.flipX = true;
+			add(healthBarBG);
+			if(ClientPrefs.downScroll) healthBarBG.y = 0.11 * FlxG.height;
+	
+			healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, RIGHT_TO_LEFT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
+				'health', 0, 2);
+			healthBar.scrollFactor.set();
+			// healthBar
+			healthBar.visible = !ClientPrefs.hideHud;
+			healthBar.alpha = ClientPrefs.healthBarAlpha;
+			healthBar.flipX = true;
+			add(healthBar);
+			healthBarBG.sprTracker = healthBar;
+	
+			iconP1 = new HealthIcon(boyfriend.healthIcon, true);
+			iconP1.y = healthBar.y - 75;
+			iconP1.visible = !ClientPrefs.hideHud;
+			iconP1.alpha = ClientPrefs.healthBarAlpha;
+			iconP1.flipX = true;
+			add(iconP1);
+	
+			iconP2 = new HealthIcon(dad.healthIcon, false);
+			iconP2.y = healthBar.y - 75;
+			iconP2.visible = !ClientPrefs.hideHud;
+			iconP2.alpha = ClientPrefs.healthBarAlpha;
+			iconP2.flipX = true;
+			add(iconP2);
+			reloadHealthBarColors();
 
-		healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, RIGHT_TO_LEFT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
-			'health', 0, 2);
-		healthBar.scrollFactor.set();
-		// healthBar
-		healthBar.visible = !ClientPrefs.hideHud;
-		healthBar.alpha = ClientPrefs.healthBarAlpha;
-		add(healthBar);
-		healthBarBG.sprTracker = healthBar;
-
-		iconP1 = new HealthIcon(boyfriend.healthIcon, true);
-		iconP1.y = healthBar.y - 75;
-		iconP1.visible = !ClientPrefs.hideHud;
-		iconP1.alpha = ClientPrefs.healthBarAlpha;
-		add(iconP1);
-
-		iconP2 = new HealthIcon(dad.healthIcon, false);
-		iconP2.y = healthBar.y - 75;
-		iconP2.visible = !ClientPrefs.hideHud;
-		iconP2.alpha = ClientPrefs.healthBarAlpha;
-		add(iconP2);
-		reloadHealthBarColors();
+			trace('e');
+		}
+		else {
+			healthBarBG = new AttachedSprite('healthBar');
+			healthBarBG.y = FlxG.height * 0.89;
+			healthBarBG.screenCenter(X);
+			healthBarBG.scrollFactor.set();
+			healthBarBG.xAdd = -4;
+			healthBarBG.yAdd = -4;
+			add(healthBarBG);
+			if(ClientPrefs.downScroll) healthBarBG.y = 0.11 * FlxG.height;
+	
+			healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, RIGHT_TO_LEFT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
+				'health', 0, 2);
+			healthBar.scrollFactor.set();
+			// healthBar
+			healthBar.visible = !ClientPrefs.hideHud;
+			healthBar.alpha = ClientPrefs.healthBarAlpha;
+			add(healthBar);
+			healthBarBG.sprTracker = healthBar;
+	
+			iconP1 = new HealthIcon(boyfriend.healthIcon, true);
+			iconP1.y = healthBar.y - 75;
+			iconP1.visible = !ClientPrefs.hideHud;
+			iconP1.alpha = ClientPrefs.healthBarAlpha;
+			add(iconP1);
+	
+			iconP2 = new HealthIcon(dad.healthIcon, false);
+			iconP2.y = healthBar.y - 75;
+			iconP2.visible = !ClientPrefs.hideHud;
+			iconP2.alpha = ClientPrefs.healthBarAlpha;
+			add(iconP2);
+			reloadHealthBarColors();
+		}
 
 		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
 		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -2406,7 +2447,18 @@ class PlayState extends MusicBeatState
 		iconP2.scale.set(mult, mult);
 		iconP2.updateHitbox();
 
-		var iconOffset:Int = 26;
+		var iconOffset:Int;
+
+		if (SONG.song.toLowerCase() == 'lethal')
+		{
+        iconOffset = 140;
+		}
+		else {
+			iconOffset = 26;
+		}
+
+		iconP1.x += 100;
+		iconP2.x -= 100;
 
 		iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
 		iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) - (150 * iconP2.scale.x) / 2 - iconOffset * 2;

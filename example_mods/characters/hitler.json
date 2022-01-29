@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-6,
-				400
+				390
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "hitler idle"
-		},
-		{
-			"offsets": [
-				-15,
-				397
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "hitler right0"
+			"name": "hitler idle",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				105,
+				387
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "hitler right0",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				0,
-				371
+				341
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "hitler down0"
+			"fps": 24,
+			"name": "hitler down0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-29,
-				417
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				81,
+				407
+			],
 			"anim": "singUP",
-			"indices": [],
-			"name": "hitler up0"
+			"fps": 24,
+			"name": "hitler up0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				38,
-				393
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				18,
+				433
+			],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "hitler left0"
+			"fps": 24,
+			"name": "hitler left0",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
