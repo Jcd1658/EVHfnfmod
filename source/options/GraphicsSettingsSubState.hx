@@ -42,16 +42,23 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 			false); //Default value
 		addOption(option);
 
-		var option:Option = new Option('Max Optimization', // Name
-			'If checked, hides everything but the HUD, massively increasing performance', // Description
-			'maxOptimization', // Save data variable name
-			'bool', // Variable type
-			false); // Default value
-		addOption(option);
-
 		var option:Option = new Option('Naughtiness', // Name
 		"Hitler's swatstika will no longer show", // Description
 		'naughtiness', // Save data variable name
+		'bool', // Variable type
+		true); // Default value
+		addOption(option);
+
+		var option:Option = new Option('VCR Effect on Non-HUD', // Name
+		'If checked, hides everything but the HUD has a VCR effect', // Description
+		'GAMEvcr', // Save data variable name
+		'bool', // Variable type
+		true); // Default value
+		addOption(option);
+
+		var option:Option = new Option('Max Optimization', // Name
+		'If checked the HUD gets a VCR Effect.', // Description
+		'HUDvcr', // Save data variable name
 		'bool', // Variable type
 		true); // Default value
 		addOption(option);

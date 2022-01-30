@@ -254,6 +254,7 @@ class PlayState extends MusicBeatState
 	//Achievement shit
 	var keysPressed:Array<Bool> = [];
 	var boyfriendIdleTime:Float = 0.0;
+	var tailsjumpscare:FlxSprite;
 	var boyfriendIdled:Bool = false;
 
 	// Lua shit
@@ -1262,10 +1263,14 @@ class PlayState extends MusicBeatState
 		shader.glitchModifier.value = [0];
 
 
+		if (ClientPrefs.GAMEvcr) {
+			camGame.setFilters([new ShaderFilter(shader)]);
 
-		camGame.setFilters([new ShaderFilter(shader)]);
-
-		camHUD.setFilters([new ShaderFilter(shader)]);
+			camHUD.setFilters([new ShaderFilter(shader)]);
+		}
+		if (ClientPrefs.HUDvcr) {
+			camOther.setFilters([new ShaderFilter(shader)]);
+		}
 
 
 		Conductor.safeZoneOffset = (ClientPrefs.safeFrames / 60) * 1000;
